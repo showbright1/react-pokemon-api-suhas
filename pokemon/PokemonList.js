@@ -43,7 +43,7 @@ export default class PokemonList extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container mb-1">
         <h2>Pokemon List</h2>
         <div className="row">
         { this.state.pokemonList.map((item) => {
